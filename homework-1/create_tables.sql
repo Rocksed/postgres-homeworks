@@ -1,5 +1,5 @@
 -- SQL-команды для создания таблиц
-create table employees
+CREATE TABLE employees
 (
     first_name varchar(100),
     last_name varchar(100),
@@ -8,14 +8,14 @@ create table employees
     notes text
 );
 
-create table customers
+CREATE TABLE customers
 (
     customer_id varchar(100),
     company_name varchar(100),
     contact_name varchar(100)
 );
 
-create table orders
+CREATE TABLE orders
 (
     order_id int PRIMARY KEY,
     customer_id varchar(100),
