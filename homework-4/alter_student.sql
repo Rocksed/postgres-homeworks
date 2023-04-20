@@ -18,7 +18,7 @@ ALTER TABLE student DROP COLUMN middle_name
 ALTER TABLE student RENAME birthday TO birth_date
 
 -- 5. Изменить тип данных колонки phone на varchar(32)
-ALTER TABLE student ALTER COLUMN phone SET DATA TYPE varchar(32
+ALTER TABLE student ALTER COLUMN phone SET DATA TYPE varchar(32)
 
 -- 6. Вставить три любых записи с автогенерацией идентификатора
 INSERT INTO student (first_name, last_name) VALUES ('day', 'night'), ('cold', 'warmth'), ('sun', 'moon')
